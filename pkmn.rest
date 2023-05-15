@@ -1,0 +1,20 @@
+GET http://localhost:3000/pkmns/all
+
+###
+
+GET http://localhost:3000/pkmns/1
+
+###
+
+POST http://localhost:3000/pkmns/
+Content-Type: application/json
+
+{
+    "name": "Squirtle",
+    "type": "Agua"
+
+}
+
+###
+
+GET http://localhost:3000/pkmns/1
